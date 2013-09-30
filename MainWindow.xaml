@@ -1,0 +1,9 @@
+﻿<Window x:Class="Driver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="626" Width="958" KeyDown="Window_KeyDown">
+    <Canvas  Name="canvas1" >
+        <Ellipse Name="car" Canvas.Left="130" Canvas.Top="79" Width="58" Height="58" Fill="#FFB900FF"  />
+        <Rectangle Canvas.Left="864" Canvas.Top="273" Height="65" Name="rectangle1" Stroke="#FFED34DC" Width="72" />
+    </Canvas>
+</Window>
